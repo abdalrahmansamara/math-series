@@ -35,6 +35,3 @@ def test_sum_series():
     assert sum_series(1,2,1) == 1
     assert sum_series(2,2,1) == 3
     assert sum_series(7,2,1) == 29
-    assert sum_series(7,2,5) == 'the optional values are not correct'
-    assert sum_series(7,8,5) == 'the optional values are not correct'
-    assert sum_series(7,6,1) == 'the optional values are not correct'

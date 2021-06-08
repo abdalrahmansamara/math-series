@@ -22,4 +22,8 @@ def sum_series(n,b=0,c=1):
   elif (b == 2 and c == 1):
     return lucas(n)
   else:
-    return 'the optional values are not correct'
+    if (n == 0):
+      return b
+    elif (n == 1):
+      return c
+    
